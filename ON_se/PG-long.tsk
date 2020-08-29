@@ -1,0 +1,26 @@
+<Task fai_finish="0" finish_min_height_ref="MSL" finish_min_height="457" start_max_height_ref="MSL" start_max_height="1524" start_max_speed="51.4444" start_requires_arm="0" aat_min_time="10800" type="RT">
+	<Point type="Start">
+		<Waypoint altitude="86" comment="Finish" id="4" name="1 RVS Start">
+			<Location latitude="45.0931" longitude="-75.6531"/>
+		</Waypoint>
+		<ObservationZone radius="400" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="75" comment="" id="10" name="7 Upper Canada Village">
+			<Location latitude="44.9711" longitude="-75.0817"/>
+		</Waypoint>
+		<ObservationZone radius="400" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="80" comment="" id="11" name="8 Prescott">
+			<Location latitude="44.7231" longitude="-75.525"/>
+		</Waypoint>
+		<ObservationZone radius="400" type="Cylinder"/>
+	</Point>
+	<Point type="Finish">
+		<Waypoint altitude="86" comment="Finish" id="4" name="1 RVS Start">
+			<Location latitude="45.0931" longitude="-75.6531"/>
+		</Waypoint>
+		<ObservationZone radius="400" type="Cylinder"/>
+	</Point>
+</Task>

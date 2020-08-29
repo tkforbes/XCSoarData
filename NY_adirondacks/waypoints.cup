@@ -1,0 +1,78 @@
+name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
+
+--Mountain Peaks
+"Algonquin Pk","Algonquin Pk",--,4408.617N,07359.200W,1558.7m,1,,,,"high peak"
+"Allen Mtn","Allen Mtn",--,4404.260N,07356.390W,1322.8m,1,,,,"high peak"
+"Armstrong Mtn","Armstrong Mtn",--,4408.080N,07350.990W,1341.1m,1,,,,"high peak"
+"Basin Mtn","Basin Mtn",--,4407.267N,07353.133W,1471.3m,1,,,,"high peak"
+"Big Slide Mtn","Big Slide Mtn",--,4410.900N,07352.267W,1292.4m,1,,,,"high peak"
+"Blake Pk","Blake Pk",--,4404.887N,07350.675W,1207.0m,1,,,,"high peak"
+"Cascade Mtn","Cascade Mtn",--,4413.117N,07351.633W,1249.1m,1,,,,"high peak"
+"Cliff Mtn","Cliff Mtn",--,4406.200N,07358.520W,1207.0m,1,,,,"high peak"
+"Couchsachraga Pk","Couchsachraga Pk",--,4405.740N,07409.610W,1164.3m,1,,,,"high peak"
+"Dial Mtn","Dial Mtn",--,4406.353N,07347.758W,1225.3m,1,,,,"high peak"
+"Dix Mtn","Dix Mtn",--,4404.933N,07347.183W,1480.4m,1,,,,"high peak"
+"Donaldson Mtn","Donaldson Mtn",--,4409.237N,07412.659W,1261.9m,1,,,,"high peak"
+"East Dix","East Dix",--,4403.920N,07345.440W,1222.9m,1,,,,"high peak"
+"Esther Mtn","Esther Mtn",--,4423.219N,07353.392W,1292.4m,1,,,,"high peak"
+"Giant Mtn","Giant Mtn",--,4409.669N,07343.213W,1410.3m,1,,,,"high peak"
+"Gothics","Gothics",--,4407.650N,07351.467W,1443.5m,1,,,,"high peak"
+"Gray Pk","Gray Pk",--,4406.700N,07356.117W,1475.2m,1,,,,"high peak"
+"Hough Pk","Hough Pk",--,4404.180N,07346.660W,1341.1m,1,,,,"high peak"
+"Iroquois Pk","Iroquois Pk",--,4408.217N,07359.883W,1475.2m,1,,,,"high peak"
+"Lower Wolfjaw Mtn","Lower Wolfjaw Mtn",--,4408.900N,07349.970W,1272.5m,1,,,,"high peak"
+"Lyon Mtn","Lyon Mtn",--,4442.000N,07352.250W,1167.4m,1,,,,
+"Macomb Mtn","Macomb Mtn",--,4403.110N,07346.820W,1342.6m,1,,,,"high peak"
+"Mt.Colden","Mt.Colden",--,4407.620N,07357.592W,1436.8m,1,,,,"high peak"
+"Mt.Colvin","Mt.Colvin",--,4405.633N,07350.067W,1236.6m,1,,,,"high peak"
+"Mt.Emmons","Mt.Emmons",--,4408.630N,07412.860W,1231.4m,1,,,,"high peak"
+"Mt.Haystack","Mt.Haystack",--,4406.333N,07354.033W,1511.8m,1,,,,"high peak"
+"Mt.Hurricane","Mt.Hurricane",--,4414.300N,07342.900W,1121.1m,1,,,,
+"Mt.Kbrn","Mt.Kbrn",--,4418.500N,07352.300W,1189.3m,1,,,,
+"Mt.Marcy","Mt.Marcy",--,4406.764N,07355.424W,1628.9m,1,,,,"high peak"
+"Mt.Marshall","Mt.Marshall",--,4407.660N,07400.740W,1328.9m,1,,,,"high peak"
+"Mt.Redfield","Mt.Redfield",--,4405.690N,07357.000W,1403.9m,1,,,,"high peak"
+"Mt.Skylight","Mt.Skylight",--,4405.983N,07355.850W,1499.6m,1,,,,"high peak"
+"Nippletop","Nippletop",--,4405.350N,07348.980W,1408.2m,1,,,,"high peak"
+"Nye Mtn","Nye Mtn",--,4411.583N,07401.450W,1187.2m,1,,,,"high peak"
+"Panther Pk","Panther Pk",--,4405.903N,07407.926W,1353.9m,1,,,,"high peak"
+"Phelps Mtn","Phelps Mtn",--,4409.420N,07355.290W,1268.3m,1,,,,"high peak"
+"Porter Mtn","Porter Mtn",--,4412.917N,07350.617W,1237.2m,1,,,,"high peak"
+"Rocky Pk Ridge","Rocky Pk Ridge",--,4409.267N,07342.333W,1347.2m,1,,,,"high peak"
+"Saddleback Mtn","Saddleback Mtn",--,4407.600N,07352.510W,1376.2m,1,,,,"high peak"
+"Santanoni Pk","Santanoni Pk",--,4404.950N,07407.870W,1404.2m,1,,,,"high peak"
+"Sawteeth","Sawteeth",--,4406.800N,07351.040W,1249.7m,1,,,,"high peak"
+"Seward Mtn","Seward Mtn",--,4409.580N,07411.980W,1329.2m,1,,,,"high peak"
+"Seymour Mtn","Seymour Mtn",--,4409.490N,07410.360W,1255.8m,1,,,,"high peak"
+"South Dix","South Dix",--,4403.603N,07346.458W,1237.5m,1,,,,"high peak"
+"Street Mtn","Street Mtn",--,4410.760N,07401.630W,1269.8m,1,,,,"high peak"
+"Table Top Mtn","Table Top Mtn",--,4408.440N,07354.980W,1349.3m,1,,,,"high peak"
+"Upper Wolfjaw Mtn","Upper Wolfjaw Mtn",--,4408.430N,07350.720W,1275.6m,1,,,,"high peak"
+"Whiteface Mtn","Whiteface Mtn",--,4421.950N,07354.167W,1483.5m,1,,,,"high peak"
+"Wright Pk","Wright Pk",--,4409.100N,07358.817W,1396.0m,1,,,,"high peak"
+
+--Airports
+"Adir.Reg","Adir.Reg",--,4423.119N,07412.371W,506.9m,5,,,,
+"AdiEst","AdiEst",--,4435.900N,07351.300W,412.1m,5,,,,
+"Catlno","Catlno",--,4425.600N,07345.200W,256.0m,5,,,,
+"HghBks","HghBks",--,4437.000N,07355.000W,463.3m,5,,,,
+"Jay Rv","Jay Rv",--,4421.800N,07344.000W,213.4m,5,,,,
+"LPlcid","LPlcid",--,4415.868N,07357.712W,532.5m,5,,,,
+"MarcyF","MarcyF",--,4413.253N,07347.475W,300.2m,5,,,,
+"PltbgC","PltbgC",--,4441.251N,07331.471W,113.1m,5,,,,
+"PltbgM","PltbgM",--,4439.053N,07328.075W,71.6m,5,,,,
+"SchrnL","SchrnL",--,4351.754N,07344.558W,253.0m,5,,,,"16L/34L 122.9"
+"Wstprt","Wstprt",--,4409.500N,07325.967W,84.1m,5,,,,
+
+--Landmarks
+"AusFrks","AusFrks",--,4426.500N,07340.600W,182.9m,1,,,,"XRD"
+"Eliztwn","Eliztwn",--,4412.800N,07335.750W,182.9m,1,,,,"XRD"
+"HartLk","HartLk",--,4410.800N,07358.000W,670.6m,1,,,,
+"Keene","Keene",--,4415.300N,07347.400W,243.8m,1,,,,"XRD"
+"KeneVal","KeneVal",--,4411.500N,07347.300W,320.0m,1,,,,"XRD"
+"RoundLk","RndLk",--,4413.700N,07353.900W,634.6m,1,,,,
+"Saranac Lake","Saranac Lake",--,4419.400N,07407.900W,487.7m,1,,,,"XRD"
+"UprJay","UprJay",--,4415.300N,07346.600W,213.4m,1,,,,"XRD"
+"Wilmtn","Wilmtn",--,4423.200N,07349.000W,304.8m,1,,,,"XRD"
+
+
