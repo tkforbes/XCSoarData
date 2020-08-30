@@ -1,4 +1,28 @@
-## xcsoar-setup
+# xcsoar-setup
+
+This is the collection of default files and settings that I use for soaring from the Kars airfield.
+
+## xcsoar-version
+
+From Menu -> Info 3/3 -> Credits.
+- 6.8.16-Kobo
+- Jul 26 2020
+
+## Method
+
+With USB cable connected to Kobo and my Linux desktop. Exit XCSoar, if running.
+
+Choose Nickel, Computer Setup. This creates a mount point at /media/tf/KOBOeReader
+
+Sync the files from the flight computer to the repo and check for any differences.
+
+`tf@goliath:~/git/xcsoar-setup$ pwd`
+
+`/home/tf/git/xcsoar-setup`
+
+`rsync -av /media/tf/KOBOeReader/XCSoarData/ ./`
+
+
 
 Location of files used in the configuration of XCSoar glide computer.
 
