@@ -22,6 +22,7 @@ Sync the files from the flight computer to the repo and check for any difference
 
 `rsync -av /media/tf/KOBOeReader/XCSoarData/ ./`
 
+`rsync  -av --exclude-from='rsync-exclude.list'  /media/tf/KOBOeReader/XCSoarData/ ./`
 
 
 Location of files used in the configuration of XCSoar glide computer.
