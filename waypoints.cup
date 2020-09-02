@@ -50,7 +50,6 @@ name,code,country,lat,lon,elev,style,rwdir,rwlen,freq,desc
 "e_carleton","e_carleton",--,4508.752N,07607.150W,128.0m,3,,,,
 "e_casselman","e_casselman",--,4518.100N,07510.300W,63.1m,3,,,,
 "Eganville","Eganville",--,4532.400N,07706.083W,143.3m,1,,,,"Bridge"
-"e_kars","e_kars",--,4504.800N,07541.450W,107.0m,3,,,,
 "e_maxville","e_maxville",--,4517.820N,07451.100W,96.9m,3,,,,
 "Embrun","Embrun",--,4516.408N,07516.490W,64.0m,1,,,,
 "e_metcalfe","e_metcalfe",--,4512.350N,07529.600W,85.0m,3,,,,
