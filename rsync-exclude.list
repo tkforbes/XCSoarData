@@ -1,3 +1,7 @@
+.gitignore
+LICENSE
+README.md
+rsync-exclude.list
 .git/
 *log
 *igc
