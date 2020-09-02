@@ -22,8 +22,10 @@ Choose "Nickel", Computer Setup. This creates a mount point at /media/tf/KOBOeRe
 
 Sync the files from the flight computer to the repo and check for any differences.
 
-`tf@goliath:~/git/xcsoar-setup$ pwd
-/home/tf/git/xcsoar-setup`
+```
+tf@goliath:~/git/xcsoar-setup$ pwd
+/home/tf/git/xcsoar-setup
+```
 
 ## Get the configuration from Kobo / XCSoar
 `tf@goliath:~/git/xcsoar-setup$ rsync --exclude-from=rsync-exclude.list -av /media/tf/KOBOeReader/XCSoarData/  ./`
