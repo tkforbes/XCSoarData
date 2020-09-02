@@ -23,14 +23,13 @@ Choose "Nickel", Computer Setup. This creates a mount point at /media/tf/KOBOeRe
 Sync the files from the flight computer to the repo and check for any differences.
 
 `tf@goliath:~/git/xcsoar-setup$ pwd
-
-`/home/tf/git/xcsoar-setup`
+/home/tf/git/xcsoar-setup`
 
 ## Get the configuration from Kobo / XCSoar
 `tf@goliath:~/git/xcsoar-setup$ rsync --exclude-from=rsync-exclude.list -av /media/tf/KOBOeReader/XCSoarData/  ./`
 
 ## Put the configuration back to Kobo / XCSoar
-'tf@goliath:~/git/xcsoar-setup$ rsync --exclude-from=rsync-exclude.list -av ./ /media/tf/KOBOeReader/XCSoarData/'
+`tf@goliath:~/git/xcsoar-setup$ rsync --exclude-from=rsync-exclude.list -av ./ /media/tf/KOBOeReader/XCSoarData/`
 
 This is a first-cut. The documentation needs to be improved and the process of installation clarfied. There has to a list of .gitignore files to make it easier to disregard information that may leak to this location from someone's actual fligth computer. A good example of this is log files and crash files.
 
