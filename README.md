@@ -8,10 +8,11 @@ This is the collection of default files and settings that I use for soaring from
 
 The following version of XCSoar is loaded on my Kobo Mini
 
+```
 From Menu -> Info 3/3 -> Credits.
 - 6.8.16-Kobo
 - Jul 26 2020
-
+```
 ## Method
 
 On Linux, the Kobo needs to be connected to the computer and its filesystem mounted. To do this...
