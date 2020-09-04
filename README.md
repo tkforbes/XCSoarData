@@ -1,5 +1,41 @@
 WARNING - not ready for general use.
 
+## Terms
+
+The following terms are used to describe the Infoboxes used by this configuration. The terms themselves come from XCSoar's display of the infobox settings on the Config->Systelm->Look->Infobox Sets page.
+
+- **Alt** : Altitude
+- **Altn** : Alternate (landing site)
+- **Cruise / Circling / Final glide** Detected flight modes that control the auto-display of a screen and its infoboxes.
+- **GR** : Glide ratio
+- **MC** : MacCready value
+- **TC** : Thermal current
+- **TL** : Thermal last
+- **WP** : Waypoint
+
+## Screens and Infoboxes.
+
+The configuration is set for Portrait mode with a set of 8 infoboxes at the base of the page. Moving maps are displayed in North Up orientation. Flarm traffic can be displayed depending on equipment and correct configuration. The moving map trail type is based on the Vario. An arrowhead displays the calculated wind. To ensure the map is clutter-free, terrain and topographic information is not displayed. Airspace is displayed but warnings are disabled because it is relatively simple to remain aware of position and to alert Ottawa Terminal as required. A safety arrival height is set at 900ft. The alternate landing site is chosen by the *simple* option. Safety MC is set at 0.7 m/s. Auto MacCready mode is *Both*. Speed To Fly is for zero lift/sink ie *Block* mode. 
+
+The computer displays one of the the following three pages depending on detected flight mode. The moving map is displayed above the infobox set.
+
+| Circling ||||
+|---|---|---|---|
+TC 30s | TC Gain | WP Dist| Alt |
+TL Avg | TC Avg | WP AltD | Altn 1 GR|
+
+| Cruise ||||
+|---|---|---|---|
+|WP GR | MC | WP Dist| Alt |
+|TL Avg | GR Inst | WP AltD | Altn 1 GR|
+
+
+| Final Glide ||||
+|---|---|---|---|
+| WP GR | MC | WP Dist| Alt |
+| TL Avg | GR Inst  |WP AltD | Altn 1 GR|
+
+
 # xcsoar-setup
 
 This is the collection of default files and settings that I use for soaring from the Kars airfield.
@@ -37,6 +73,7 @@ rsync --exclude-from=rsync-exclude.list -av /media/tf/KOBOeReader/XCSoarData/  .
 ```
 rsync --exclude-from=rsync-exclude.list -av ./ /media/tf/KOBOeReader/XCSoarData/
 ```
+
 
 This is a first-cut. The documentation needs to be improved and the process of installation clarfied. There has to a list of .gitignore files to make it easier to disregard information that may leak to this location from someone's actual fligth computer. A good example of this is log files and crash files.
 
