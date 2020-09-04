@@ -1,5 +1,5 @@
-**/*log
-**/logs
+/logs/*
+!flarmdata.nmea
 **/crash
 **/flights.log
 **/Default.tsk
