@@ -2,7 +2,7 @@ WARNING - not ready for general use.
 
 ## Terms
 
-The following terms are used to describe the Infoboxes used by this configuration. The terms themselves come from XCSoar's display of the infobox settings on the Config->Systelm->Look->Infobox Sets page.
+The following terms are used to describe the Infoboxes used by this configuration. The terms themselves come from XCSoar's display of the infobox settings on the Config->System->Look->Infobox Sets page.
 
 - **Alt** : Altitude
 - **Altn** : Alternate (landing site)
