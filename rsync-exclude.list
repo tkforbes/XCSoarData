@@ -3,10 +3,9 @@ LICENSE
 README.md
 rsync-exclude.list
 .git/
-*log
+logs/2*nmea
 *igc
-*nmea
+*log
 kobo/
-logs/
 crash/
 Default.tsk
