@@ -59,28 +59,33 @@ can substitute in any of the above groups.
 You will replace the current configuration of your flight computer. Any important settings will be lost. 
 To recover them, you must have a backup of the *XCSoarData* directory (and its children).
 
-### On Linux (Ubuntu)
+### On Linux (Ubuntu) and using git
 
 On Linux, the Kobo needs to be connected to the computer and its filesystem mounted. To do this...
 
 1. Connect a USB cable between the Kobo and Linux desktop. Exit XCSoar, if running.
-1. Choose "Nickel", Computer Setup. This creates a mount point at /media/tf/KOBOeReader
+1. Choose "Nickel", Computer Setup. This creates a mount point at /media/your-name/KOBOeReader
 1. Sync the files from the flight computer to the repo and check for any differences.
+
+Assuming you have cloned this repository, and are in the correct directory...
 
 ```
 tf@goliath:~/git/xcsoar-setup$ pwd
 /home/tf/git/xcsoar-setup
 ```
 
-## Get the configuration from Kobo / XCSoar
-```
-rsync --exclude-from=rsync-exclude.list -av /media/tf/KOBOeReader/XCSoarData/  ./
-```
-
-## Put the configuration back to Kobo / XCSoar
+### Put the configuration on your Flight Computer
 ```
 rsync --exclude-from=rsync-exclude.list -av ./ /media/tf/KOBOeReader/XCSoarData/
 ```
+
+1. Eject the Kobo (same as unmount the Kobo).
+1. Power-off the Kobo and wait a moment.
+1. Power-on the Kobo.
+1. Select Fly from the XCSoar main screen.
+1. Select M(enu)->Config 1/3->System->Setup->Logger and change Pilot Name.
+1. Select M(enu)->Config 1/3->System->Plane and chose your aircraft from the list.
+
 
 ## Backup your XCSoar
 
