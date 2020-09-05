@@ -4,7 +4,8 @@ This ordered list can be read more easily that the list on the flight computer
 which is constrained by the small screen size. If you’re thinking about changing any of the configured infoboxes,
 glance at this list to decide which others might substituted.
 
-Name
+For more information about infoboxes, download the XCSoar Manual from the main page of the project https://www.xcsoar.org/
+
 1.	aat delta time
 1.	aat distance around target
 1.	aat max distance
