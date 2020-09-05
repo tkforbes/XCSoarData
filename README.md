@@ -65,9 +65,9 @@ To recover them, you must have a backup of the *XCSoarData* directory (and its c
 
 On Linux, the Kobo needs to be connected to the computer and its filesystem mounted. To do this...
 
-1. Clone the repository and change to the project directory.
+1. Clone the repository and change to the project directory i.e. *$ git clone https://github.com/tkforbes/xcsoar-setup.git*
 1. Switch to the *kars* branch i.e. *$ git checkout kars*
-1. Connect a USB cable between the Kobo and Linux desktop. **Exit XCSoar**, if running.
+1. Connect a USB cable between the Kobo and Linux desktop. **Exit XCSoar, if running.**
 1. From the XCSoar main page, choose *Nickel*. Wait a while. A screen displaying *Welcome to Kobo* appears.
 1. Choose *Computer Setup*. This creates a mount point at /media/your-name/KOBOeReader. *Connected and charging* appears on the screen.
 
