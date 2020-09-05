@@ -84,7 +84,7 @@ rsync --exclude-from=rsync-exclude.list -av ./ /media/tf/KOBOeReader/XCSoarData/
 1. Power-on the Kobo.
 1. Select Fly from the XCSoar main screen.
 1. Select M(enu)->Config 1/3->System->Setup->Logger and change Pilot Name.
-1. Select M(enu)->Config 1/3->System->Plane and chose your aircraft from the list.
+1. Select M(enu)->Config 1/3->System->Plane and chose your aircraft from the list and press Activate.
 
 
 ## Backup your XCSoar
