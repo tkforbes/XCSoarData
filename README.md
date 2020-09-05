@@ -2,13 +2,13 @@ WARNING - not ready for general use.
 
 ## What is this?
 
-This repository contains a configuration for XCSoar. It is a convenient restore point or starting point for the configuration of a Kobo-based device already running XCSoar. This configuration will not install XCSoar; you have to do that first.
+This repository contains a configuration for XCSoar. It is a convenient restore point or starting point for the configuration of a Kobo-based device already running XCSoar. This configuration will not install XCSoar. You have to do that first. The proceedure is not described here.
 
 ## xcsoar-version
 
 The following version of XCSoar is loaded on the Kobo Mini. The configuration may or may-not work with other hardware and XCSoar versions.
 
-### From Menu -> Info 3/3 -> Credits
+### As displayed on XCSoar Menu -> Info 3/3 -> Credits
 ```
 - 6.8.16-Kobo
 - Jul 26 2020
@@ -49,16 +49,23 @@ TL Avg | TC Avg | WP AltD | Altn 1 GR|
 | WP GR | MC | WP Dist| Alt |
 | TL Avg | GR Inst  |WP AltD | Altn 1 GR|
 
+A separate file in this repository named *infoboxes--full-list.md* gives a full list of infobox choices that you 
+can substitute in any of the above groups.
 
 ## Method
 
+### Warning
+
+You will replace the current configuration of your flight computer. Any important settings will be lost. 
+To recover them, you must have a backup of the *XCSoarData* directory (and its children).
+
+### On Linux (Ubuntu)
+
 On Linux, the Kobo needs to be connected to the computer and its filesystem mounted. To do this...
 
-Connect a USB cable between the Kobo and Linux desktop. Exit XCSoar, if running.
-
-Choose "Nickel", Computer Setup. This creates a mount point at /media/tf/KOBOeReader
-
-Sync the files from the flight computer to the repo and check for any differences.
+1. Connect a USB cable between the Kobo and Linux desktop. Exit XCSoar, if running.
+1. Choose "Nickel", Computer Setup. This creates a mount point at /media/tf/KOBOeReader
+1. Sync the files from the flight computer to the repo and check for any differences.
 
 ```
 tf@goliath:~/git/xcsoar-setup$ pwd
