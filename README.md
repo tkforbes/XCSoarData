@@ -1,5 +1,19 @@
 WARNING - not ready for general use.
 
+## What is this?
+
+This repository contains a configuration for XCSoar. It is a convenient restore point or starting point for the configuration of a Kobo-based device already running XCSoar. This configuration will not install XCSoar; you have to do that first.
+
+## xcsoar-version
+
+The following version of XCSoar is loaded on the Kobo Mini. The configuration may or may-not work with other hardware and XCSoar versions.
+
+### From Menu -> Info 3/3 -> Credits
+```
+- 6.8.16-Kobo
+- Jul 26 2020
+```
+
 ## Terms
 
 The following terms are used to describe the Infoboxes used by this configuration. The terms themselves come from XCSoar's display of the infobox settings on the Config->System->Look->Infobox Sets page.
@@ -36,19 +50,6 @@ TL Avg | TC Avg | WP AltD | Altn 1 GR|
 | TL Avg | GR Inst  |WP AltD | Altn 1 GR|
 
 
-# xcsoar-setup
-
-This is the collection of default files and settings that I use for soaring from the Kars airfield.
-
-## xcsoar-version
-
-The following version of XCSoar is loaded on my Kobo Mini
-
-### From Menu -> Info 3/3 -> Credits
-```
-- 6.8.16-Kobo
-- Jul 26 2020
-```
 ## Method
 
 On Linux, the Kobo needs to be connected to the computer and its filesystem mounted. To do this...
