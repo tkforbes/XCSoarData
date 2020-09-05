@@ -49,6 +49,10 @@ TL Avg | TC Avg | WP AltD | Altn 1 GR|
 | WP GR | MC | WP Dist| Alt |
 | TL Avg | GR Inst  |WP AltD | Altn 1 GR|
 
+If you swipe across the moving map you can scroll to a screen named System. The purpose of this screen is
+to give you some information about the status of your system that you do not see on the automatic pages.
+For example, you can check the Kobo battery health and see the duraration of the current flight.
+
 A separate file in this repository named *infoboxes--full-list.md* gives a full list of infobox choices that you 
 can substitute in any of the above groups.
 
