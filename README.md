@@ -61,27 +61,36 @@ To recover them, you must have a backup of the *XCSoarData* directory (and its c
 
 ### On Linux (Ubuntu) and using git
 
+#### Make the connection between the Kobo and the computer.
+
 On Linux, the Kobo needs to be connected to the computer and its filesystem mounted. To do this...
 
-1. Connect a USB cable between the Kobo and Linux desktop. Exit XCSoar, if running.
-1. Choose "Nickel", Computer Setup. This creates a mount point at /media/your-name/KOBOeReader
-1. Sync the files from the flight computer to the repo and check for any differences.
+1. Clone the repository and change to the project directory.
+1. Switch to the *kars* branch i.e. *$ git checkout kars*
+1. Connect a USB cable between the Kobo and Linux desktop. **Exit XCSoar**, if running.
+1. From the XCSoar main page, choose *Nickel*. Wait a while. A screen displaying *Welcome to Kobo* appears.
+1. Choose *Computer Setup*. This creates a mount point at /media/your-name/KOBOeReader. *Connected and charging* appears on the screen.
 
-Assuming you have cloned this repository, and are in the correct directory...
+#### Put the configuration on your Flight Computer
+
+In your terminal, you should be in the correct directory, which is something like this...
 
 ```
 tf@goliath:~/git/xcsoar-setup$ pwd
 /home/tf/git/xcsoar-setup
 ```
 
-### Put the configuration on your Flight Computer
+Sync the configuration files to the flight computer with this command...
+
 ```
 rsync --exclude-from=rsync-exclude.list -av ./ /media/tf/KOBOeReader/XCSoarData/
 ```
 
+then
+
 1. Eject the Kobo (same as unmount the Kobo).
-1. Power-off the Kobo and wait a moment.
-1. Power-on the Kobo.
+1. Power-off the Kobo. *Powered off* appears. Wait a moment.
+1. Power-on the Kobo. 
 1. Select Fly from the XCSoar main screen.
 1. Select M(enu)->Config 1/3->System->Setup->Logger and change Pilot Name.
 1. Select M(enu)->Config 1/3->System->Plane and chose your aircraft from the list and press Activate.
