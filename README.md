@@ -20,9 +20,12 @@ The following terms are used to describe the Infoboxes used by this configuratio
 
 - **Alt** : Altitude
 - **Altn** : Alternate (landing site)
-- **Cruise / Circling / Final glide** Detected flight modes that control the auto-display of a screen and its infoboxes.
+- **Cruise / Circling / Final glide**: Detected flight modes that control the auto-display of a screen and its infoboxes.
 - **GR** : Glide ratio
+- **GND** : Ground
+- **loc**: Local
 - **MC** : MacCready value
+- **T**  : Thermal
 - **TC** : Thermal current
 - **TL** : Thermal last
 - **WP** : Waypoint
@@ -52,6 +55,12 @@ TL Avg | TC Avg | WP AltD | Altn 1 GR|
 If you swipe across the moving map you can scroll to a screen named System. The purpose of this screen is
 to give you some information about the status of your system that you do not see on the automatic pages.
 For example, you can check the Kobo battery health and see the duraration of the current flight.
+
+| System ||||
+|---|---|---|---|
+| Time loc | T Avg | Head wind| Alt |
+| Flt Duration | OLC Dist | V Gnd | Battery |
+
 
 A separate file in this repository named *infoboxes--full-list.md* gives a full list of infobox choices that you 
 can substitute in any of the above groups.
