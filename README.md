@@ -6,13 +6,10 @@ This repository contains a configuration for XCSoar. It is a convenient restore 
 
 ## xcsoar-version
 
-The following version of XCSoar is loaded on the Kobo Mini. The configuration may or may-not work with other hardware and XCSoar versions.
+This configuration will likely work with a variety of hardware and software versions of XCSoar. Development of this configuration has primarily been
+conducted on a **Kobo Mini running XCSoar 6.8.16-Kobo dated Jul 26 2020.** It was also observed to be working on an Android phone running XCSoar version **6.8.16-Android dated Jul 26 2020**, although less attention was given to that platform and the configuration had to be manually updated to use the built-in GPS device.
 
-### As displayed on XCSoar Menu -> Info 3/3 -> Credits
-```
-- 6.8.16-Kobo
-- Jul 26 2020
-```
+Configuration is highly specialized and depends on hardware to a great degree. Expect to make configuration changes unless you arerunning on a Kobo Mini.
 
 ## Terms
 
@@ -79,6 +76,8 @@ can substitute in any of the above groups.
 
 ## Method
 
+* full instructions yet to be written.*
+
 ### Warning
 
 You will replace the current configuration of your flight computer. Any important settings will be lost. 
@@ -123,4 +122,4 @@ then
 
 ## Backup your XCSoar
 
-## Install these configuration settings
+* full instructions yet to be written.*
