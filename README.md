@@ -38,29 +38,40 @@ The computer displays one of the the following three pages depending on detected
 
 | Circling ||||
 |---|---|---|---|
-TC 30s | TC Gain | WP Dist| Alt auto |
-TL Avg | TC Avg | WP AltD | Altn 1 GR|
+TC 30s | TC Gain | WP arrow| Alt auto |
+TL Avg | TC Avg  | WP AltD | Altn 1 GR|
 
 | Cruise ||||
 |---|---|---|---|
-|WP GR | MC | WP Dist| Alt auto|
+|WP GR  | MC      | WP arrow| Alt auto |
 |TL Avg | GR Inst | WP AltD | Altn 1 GR|
 
 
 | Final Glide ||||
 |---|---|---|---|
-| WP GR | MC | WP Dist| Alt auto|
-| TL Avg | GR Inst  |WP AltD | Altn 1 GR|
+| WP GR  | MC       |WP arrow | Alt auto |
+| TL Avg | GR Inst  |WP AltD  | Altn 1 GR|
 
-If you swipe across the moving map you can view a page to the left named *Status*. The purpose of this
-page is to give you some information about the status of your system that you do not see on the 
-automatic pages. For example, you can check the Kobo battery health and see the Barometric altitude (if
-properly connected to a TTGO or Flarm device, for example). 
+Additional pages become visible by swiping across the display.
+
+The *My Flight* page provides some summary information about the current flight.
+
+| My Flight ||||
+|---|---|---|---|
+| Percentage climb | Time loc | Wind speed | Home dist | 
+| T Avg            | Flt dur  | OLC Speed  | OLC dist  |
+
+The *Status* page provides information that can help to confirm the healthy state of the computer.
+For example, if you are connected to an external source that is providing pressure altitude, the Baro
+and GPS boxes will differ slightly, indicating that the connection is valid. The Battery status
+might confirm that your flight computer remains connected to an external power source.
+
 
 | Status ||||
 |---|---|---|---|
-| Time loc | Next arrow | Alt Baro | Alt GPS |
-| Flt Duration | OLC Dist | Home Dist | Battery |
+| spare    | Time loc | Wp arrow | Alt GPS  |
+| Battery  | CPU load | spare    | Alt Baro |
+
 
 
 A separate file in this repository named *infoboxes--full-list.md* gives a full list of infobox choices that you 
