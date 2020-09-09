@@ -1,5 +1,3 @@
-WARNING - not ready for general use.
-
 ## What is this?
 
 This repository contains a configuration for XCSoar. It is a convenient restore point or starting point for the configuration of a device already running XCSoar. This configuration will not install XCSoar; you have to do that first. The proceedure is not described here.
@@ -80,12 +78,34 @@ can substitute in any of the above groups.
 
 ## Method
 
-* full instructions yet to be written.*
+*full instructions yet to be written.*
 
 ### Warning
 
 You will replace the current configuration of your flight computer. Any important settings will be lost. 
 To recover them, you must have a backup of the *XCSoarData* directory (and its children).
+
+### On Windows.
+
+*full instructions yet to be written.*
+
+Download the .zip file that contains all the files in this repository.
+
+Connect your Flight Computer to your computer such that you can see the files on the device. This is usually a USB connection.
+
+Unzip the file somewhere on your computer.
+
+The files and directories in folder xcsoar-setup replace the files in the Flight Computer's XCSoarData directory.
+So, move the files that you unzipped to the XCSoarData directory. This overwrites any files with the same name but
+leaves exisiting files (such as your log files) in place.
+
+1. Safely eject the Flight Computer.
+1. If Kobo, power-off the Flight Computer *Powered off* appears . Wait a moment.
+1. Power-on the Flight Computer.
+1. Select Fly from the XCSoar main screen.
+1. Select M(enu)->Config 1/3->System->Setup->Logger and change Pilot Name.
+1. Select M(enu)->Config 1/3->System->Plane and chose your aircraft from the list and press Activate.
+
 
 ### On Linux (Ubuntu) and using git
 
