@@ -89,6 +89,8 @@ To recover them, you must have a backup of the *XCSoarData* directory (and its c
 
 *full instructions yet to be written.*
 
+The procedure varies slightly depending on Flight Computer hardware. Use common sense. The following applies more exactly to Kobo. For simplicity, the process will install some unneeded files on your Flight Computer but they won't do any harm.
+
 Download the .zip file that contains all the files in this repository.
 
 Connect your Flight Computer to your computer such that you can see the files on the device. This is usually a USB connection.
@@ -100,12 +102,11 @@ So, move the files that you unzipped to the XCSoarData directory. This overwrite
 leaves exisiting files (such as your log files) in place.
 
 1. Safely eject the Flight Computer.
-1. If Kobo, power-off the Flight Computer *Powered off* appears . Wait a moment.
+1. Power-off the Flight Computer *Powered off* appears . Wait a moment.
 1. Power-on the Flight Computer.
 1. Select Fly from the XCSoar main screen.
 1. Select M(enu)->Config 1/3->System->Setup->Logger and change Pilot Name.
 1. Select M(enu)->Config 1/3->System->Plane and chose your aircraft from the list and press Activate.
-
 
 ### On Linux (Ubuntu) and using git
 
