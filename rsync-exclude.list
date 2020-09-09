@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+rsync-exclude.list
+.git/
+logs/2*nmea
+logs/2*igc
+*log
+kobo/
+crash/
+Default.tsk
