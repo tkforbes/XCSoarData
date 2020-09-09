@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-Switch to a branch to see the configuration files. Branches are used per soaring location. The idea is that the branch content defines a specific setup for
-an XCSoar installation. Copy the files of the branch over an existing XCSoar on your device, restar XCSoar and voila.
-=======
 ## What is this?
 
 This repository contains a configuration for XCSoar. It is a convenient restore point or starting point for the configuration of a device already running XCSoar. This configuration will not install XCSoar; you have to do that first. The proceedure is not described here.
@@ -147,4 +143,3 @@ then
 ## Backup your XCSoar
 
 * full instructions yet to be written.*
->>>>>>> club
