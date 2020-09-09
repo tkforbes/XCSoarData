@@ -2,7 +2,7 @@ WARNING - not ready for general use.
 
 ## What is this?
 
-This repository contains a configuration for XCSoar. It is a convenient restore point or starting point for the configuration of a Kobo-based device already running XCSoar. This configuration will not install XCSoar. You have to do that first. The proceedure is not described here.
+This repository contains a configuration for XCSoar. It is a convenient restore point or starting point for the configuration of a device already running XCSoar. This configuration will not install XCSoar; you have to do that first. The proceedure is not described here.
 
 ## xcsoar-version
 
