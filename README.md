@@ -9,7 +9,7 @@ This repository contains a configuration for XCSoar. It is a convenient restore 
 This configuration will likely work with a variety of hardware and software versions of XCSoar. Development of this configuration has primarily been
 conducted on a **Kobo Mini running XCSoar 6.8.16-Kobo dated Jul 26 2020.** It was also observed to be working on an Android phone running XCSoar version **6.8.16-Android dated Jul 26 2020**, although less attention was given to that platform and the configuration had to be manually updated to use the built-in GPS device.
 
-Configuration is highly specialized and depends on hardware to a great degree. Expect to make configuration changes unless you are using a Kobo Mini with an  attached serial GPS running at 115200 Baud.
+Configuration is highly specialized and depends on hardware to a great degree. Expect to make configuration changes unless you are using a Kobo Mini with an  attached serial GPS running at 115200 Baud. See XCSoar **Menu->Config->Devices** to confirm that your GPS is detected.
 
 ## Terms
 
