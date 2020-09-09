@@ -91,14 +91,12 @@ To recover them, you must have a backup of the *XCSoarData* directory (and its c
 
 The procedure varies slightly depending on Flight Computer hardware. Use common sense. The following applies more exactly to Kobo. For simplicity, the process will install some unneeded files on your Flight Computer but they won't do any harm.
 
-Download the .zip file that contains all the files in this repository.
+Connect your Flight Computer to your computer such that you can see the files on the device. This is usually a USB connection. The basic idea is to unzip the contents of the XCSoarData-master folder from the zip file *over* the contents of the XCSoarData folder on your Flight Computer, replacing files of the same name and leaving others (such as your flight logs) in place.
 
-Connect your Flight Computer to your computer such that you can see the files on the device. This is usually a USB connection. The basic idea is to unzip the contents of the XCSoarData-(master) folder from the zip file over the contents of the XCSoarData folder on your Flight Computer, replacing some files and leaving others (such as your flight logs) in place.
-
-1. Connect your flight computer to your computer with a USB cable and make the connection.
+1. Attach your flight computer to your computer with a USB cable and make the connection in the usual way.
 1. Download the zip file from https://github.com/tkforbes/XCSoarData/archive/master.zip
-1. Extract the XCSoarData-(master) folder over the XCSoarData folder on your flight computer. Overwrite existing files if prompted with a warning.
-1. Safely eject the flight computer. This ensures the filesystem on your fligth computer is cleanly written.
+1. Extract the contents of XCSoarData-master into the XCSoarData folder on your flight computer. Allow existing files to be replaced if prompted with a warning.
+1. Safely eject the flight computer.
 1. Power-off the flight computer *Powered off* appears . Wait a moment.
 1. Power-on the flight computer.
 1. Select Fly from the XCSoar main screen.
