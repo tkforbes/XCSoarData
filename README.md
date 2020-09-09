@@ -38,28 +38,29 @@ The computer displays one of the the following three pages depending on detected
 
 | Circling ||||
 |---|---|---|---|
-TC 30s | TC Gain | WP Dist| Alt |
+TC 30s | TC Gain | WP Dist| Alt auto |
 TL Avg | TC Avg | WP AltD | Altn 1 GR|
 
 | Cruise ||||
 |---|---|---|---|
-|WP GR | MC | WP Dist| Alt |
+|WP GR | MC | WP Dist| Alt auto|
 |TL Avg | GR Inst | WP AltD | Altn 1 GR|
 
 
 | Final Glide ||||
 |---|---|---|---|
-| WP GR | MC | WP Dist| Alt |
+| WP GR | MC | WP Dist| Alt auto|
 | TL Avg | GR Inst  |WP AltD | Altn 1 GR|
 
-If you swipe across the moving map you can scroll to a screen named System. The purpose of this screen is
-to give you some information about the status of your system that you do not see on the automatic pages.
-For example, you can check the Kobo battery health and see the duraration of the current flight.
+If you swipe across the moving map you can view a page to the left named *Status*. The purpose of this
+page is to give you some information about the status of your system that you do not see on the 
+automatic pages. For example, you can check the Kobo battery health and see the Barometric altitude (if
+properly connected to a TTGO or Flarm device, for example). 
 
-| System ||||
+| Status ||||
 |---|---|---|---|
-| Time loc | T Avg | Head wind| Alt |
-| Flt Duration | OLC Dist | V Gnd | Battery |
+| Time loc | Next arrow | Alt Baro | Alt GPS |
+| Flt Duration | OLC Dist | Home Dist | Battery |
 
 
 A separate file in this repository named *infoboxes--full-list.md* gives a full list of infobox choices that you 
