@@ -95,9 +95,8 @@ Download the .zip file that contains all the files in this repository.
 
 Connect your Flight Computer to your computer such that you can see the files on the device. This is usually a USB connection.
 
-Unzip the file somewhere on your computer.
+Unzip the file somewhere on your computer. The files *inside the xcsoar-setup folder* are the important files. These files replace the files in the Flight Computer's XCSoarData directory.
 
-The files and directories in folder xcsoar-setup replace the files in the Flight Computer's XCSoarData directory.
 So, move the files that you unzipped to the XCSoarData directory. This overwrites any files with the same name but
 leaves exisiting files (such as your log files) in place.
 
