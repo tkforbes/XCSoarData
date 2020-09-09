@@ -16,12 +16,16 @@ Configuration is highly specialized and depends on hardware to a great degree. E
 The following terms are used to describe the Infoboxes used by this configuration. The terms themselves come from XCSoar's display of the infobox settings on the Config->System->Look->Infobox Sets page.
 
 - **Alt** : Altitude
+- **AltD** : Altitude difference
 - **Altn** : Alternate (landing site)
 - **Cruise / Circling / Final glide**: Detected flight modes that control the auto-display of a screen and its infoboxes.
+- **Flt** : Flight
 - **GR** : Glide ratio
 - **GND** : Ground
+- **Inst** - Instantaneous
 - **loc**: Local
 - **MC** : MacCready value
+- **OLC** : Online Contest
 - **T**  : Thermal
 - **TC** : Thermal current
 - **TL** : Thermal last
