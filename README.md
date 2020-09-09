@@ -59,7 +59,7 @@ The *My Flight* page provides some summary information about the current flight.
 
 | My Flight ||||
 |---|---|---|---|
-| % climb | Time loc | Wind speed | Home dist | 
+| % Climb | Time loc | Wind speed | Home dist | 
 | T Avg   | Flt dur  | OLC Speed  | OLC dist  |
 
 The *Status* page provides information that can help to confirm the healthy state of the computer.
