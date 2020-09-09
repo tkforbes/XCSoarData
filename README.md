@@ -93,16 +93,14 @@ The procedure varies slightly depending on Flight Computer hardware. Use common 
 
 Download the .zip file that contains all the files in this repository.
 
-Connect your Flight Computer to your computer such that you can see the files on the device. This is usually a USB connection.
+Connect your Flight Computer to your computer such that you can see the files on the device. This is usually a USB connection. The basic idea is to unzip the contents of the XCSoarData-(master) folder from the zip file over the contents of the XCSoarData folder on your Flight Computer, replacing some files and leaving others (such as your flight logs) in place.
 
-Unzip the file somewhere on your computer. The files *inside the xcsoar-setup folder* are the important files. These files replace the files in the Flight Computer's XCSoarData directory.
-
-So, move the files that you unzipped to the XCSoarData directory. This overwrites any files with the same name but
-leaves exisiting files (such as your log files) in place.
-
-1. Safely eject the Flight Computer.
-1. Power-off the Flight Computer *Powered off* appears . Wait a moment.
-1. Power-on the Flight Computer.
+1. Connect your flight computer to your computer with a USB cable and make the connection.
+1. Download the zip file from https://github.com/tkforbes/XCSoarData/archive/master.zip
+1. Extract the XCSoarData-(master) folder over the XCSoarData folder on your flight computer. Overwrite existing files if prompted with a warning.
+1. Safely eject the flight computer. This ensures the filesystem on your fligth computer is cleanly written.
+1. Power-off the flight computer *Powered off* appears . Wait a moment.
+1. Power-on the flight computer.
 1. Select Fly from the XCSoar main screen.
 1. Select M(enu)->Config 1/3->System->Setup->Logger and change Pilot Name.
 1. Select M(enu)->Config 1/3->System->Plane and chose your aircraft from the list and press Activate.
