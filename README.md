@@ -127,7 +127,7 @@ tf@goliath:~/git/xcsoar-setup$ pwd
 Sync the configuration files to the flight computer with this command...
 
 ```
-rsync --exclude-from=rsync-exclude.list -av ./ /media/tf/KOBOeReader/XCSoarData/
+rsync --exclude-from=rsync-exclude.list --checksum -av ./ /media/tf/KOBOeReader/XCSoarData/
 ```
 
 then
