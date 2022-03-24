@@ -1,7 +1,0 @@
-/logs/*
-!flarmdata.nmea
-!pg-small.igc
-**/crash
-**/flights.log
-**/Default.tsk
-Default.tsk
