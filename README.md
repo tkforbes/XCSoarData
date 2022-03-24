@@ -94,7 +94,7 @@ The procedure varies slightly depending on Flight Computer hardware. Use common 
 Connect your Flight Computer to your computer such that you can see the files on the device. This is usually a USB connection. The basic idea is to unzip the contents of the XCSoarData-master folder from the zip file *over* the contents of the XCSoarData folder on your Flight Computer, replacing files of the same name and leaving others (such as your flight logs) in place.
 
 1. Attach your flight computer to your computer with a USB cable and make the connection in the usual way.
-1. Download the zip file from https://github.com/tkforbes/XCSoarData/archive/master.zip
+1. Download the zip file from https://github.com/tkforbes/XCSoarData/archive/kars.zip
 1. Extract the contents of XCSoarData-master into the XCSoarData folder on your flight computer. Allow existing files to be replaced if prompted with a warning.
 1. Safely eject the flight computer.
 1. Power-off the flight computer *Powered off* appears . Wait a moment.
